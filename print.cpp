@@ -38,7 +38,7 @@ int main(){
 		}
 		etime = timeGetTime();
 		tick = 32.667-(double)(etime-stime);
-		printf("tick : %02.1f", tick);
+		printf("tick : %04.1f", tick);
 		Sleep(tick>0?tick:0);
 	}
 	end:
